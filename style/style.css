@@ -1,0 +1,784 @@
+/* Declaramos las variables de colores */
+
+:root {
+
+    --color_circle: #7ED957;
+    --color_primari: #00BF63;
+    --color_texto: #EEEEEE;
+}
+
+/* --------------------------------------- */
+
+/* declaramos las fuentes del texto */
+
+@font-face {
+    font-family: 'arimo';
+    src: url(/fonts/Arimo-Regular-Latin.ttf);
+}
+
+/* ---------------------------------------- */
+
+/* reset de valores de png */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* ---------------------------------------- */
+
+/* estilos del body */ 
+
+body {
+    width: 2000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ----------------------------------------- */
+
+/* stilos del header */
+
+header {
+    width: 1890px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+
+.nav {
+    width: 1800px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+    
+}
+
+.contenNav {
+
+    width: 500px;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.circle {
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 100%;
+
+    background-color: var(--color_circle);
+}
+
+.contenNav p {
+
+    font-family: arimo;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+
+.nav sub {
+
+
+    font-family: arimo;
+    font-size: 40px;      
+
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ----------------------------------------------------- */
+
+/* estilos del main */
+
+
+main {
+
+    width: 2090px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+/* ----------------------------------------------------- */
+
+/* estilos del container */
+
+.container_1 {
+
+    width: 2090px;
+    height: auto;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: arimo;
+   
+}
+
+
+
+
+.flayer {
+    
+    width: 1300px;
+    height: auto;
+
+    margin-top: 30px;
+    margin-left: -750px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+
+picture {
+
+    width: 2100px;
+    height: auto;
+    
+    margin-left: 15px;
+    z-index: -1;
+}
+
+
+picture img {
+
+    width: 2090px;
+    
+
+}
+
+
+.tex_1 {
+    
+    width: 768px;
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+
+    background-color: var(--color_primari);
+    
+
+}
+
+.tex_1 h6 {
+
+    text-indent: 160px;
+    margin-bottom: 20px;
+    font-size: 80px;
+
+    color: white;
+}
+
+.tex_2 {
+   
+    width: 1280px;
+    height: 100px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+
+    background-color: var(--color_primari);
+    
+}
+
+.tex_2 h6 {
+
+    font-size: 80px;
+    text-indent: 140px;
+    margin-bottom: 20px;
+    
+    color: white;
+
+}
+
+.tex_3 {
+
+    width: 1280px;
+    height: 100px;
+    margin-left: 25px;
+    margin-bottom: 70px;
+
+
+    background-color: var(--color_primari);
+    
+}
+
+.tex_3 h6 {
+
+    text-align: left;
+    font-size: 80px;
+    margin-left: -40px;
+    text-indent: 180px;
+    margin-bottom: 70px;
+
+
+    color: white;
+
+}
+
+.flayer .tex_p1 {
+
+    width: 1250px;
+    height: 70px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: black;
+
+}
+
+.flayer .tex_p1 b {
+
+    text-indent: 150px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    margin-top: -5px;
+
+    color: white;
+
+  font-size: 50px;
+
+}
+
+.flayer .tex_p2 {
+
+    width: 1030px;
+    height: 70px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+    background-color: black;
+
+}
+
+
+
+.flayer .tex_p2 b {
+
+    font-family: arimo;
+    font-size: 50px;
+    text-indent: -250px;
+    letter-spacing: 2px;
+    margin-top: -5px;
+
+
+    color: white;
+
+}
+
+
+/* ---------------------------------------------------- */
+
+/* estilos del container_2 */
+
+.container_2 {
+
+    width: 1900PX;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: arimo;
+
+
+
+}
+
+.titel_1{
+
+    width: 1700px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+
+    padding: 10px;
+
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+    
+}
+
+.titel_1 h1 {
+
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.titel_1 p {
+
+    font-size: 45px;
+}
+
+.cards {
+    width: 1800px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+
+
+.card_1 {
+
+    width: 500px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.card_1 img {
+
+    margin-left: 25px;
+
+    border: #7ED957;
+}
+
+.card_1_img {
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card_1_img h1 {
+
+    font-size: 50px;
+    font-family: arimo;
+    
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.card_1 p {
+
+    font-size: 35px;
+    font-family: arimo;
+    margin-left: 25px;
+
+}
+
+
+.card_2 {
+
+    width: 500px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.card_2 img {
+
+    margin-left: 25px;
+}
+
+.card_2_img {
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card_2_img h1 {
+
+    font-size: 50px;
+    font-family: arimo;
+    
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.card_2 p {
+
+    font-size: 26px;
+    font-family: arimo;
+    margin-left: 25px;
+
+}
+
+
+.card_3 {
+
+    width: 500px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.card_3 img {
+
+    margin-left: 25px;
+}
+
+.card_3_img {
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card_3_img h1 {
+
+    font-size: 50px;
+    font-family: arimo;
+    
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.card_3 p {
+
+    font-size: 35px;
+    font-family: arimo;
+    margin-left: 25px;
+
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {
+
+    .container_2{
+
+        margin-left: -50px;
+
+    }
+
+
+    .cards {
+      width: 1000px;
+      height: auto;
+
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      padding: 15px;
+
+      margin-left: -200px;
+
+    }
+
+    .card_1 {
+
+        width: 900px;
+        height: auto;
+
+        display: flexbox;
+        flex-direction: row;
+        justify-content: center;
+
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: -70px;
+        margin-right: 0px;
+
+    }
+
+    .card_1_img {
+
+        width: 100%;
+        height: auto;
+
+    }
+
+    .card_1_img h1 {
+
+        font-size: 80px;
+        
+    }
+
+    .card_1_img img {
+
+        width: 80px;
+        height: 80px;
+
+        margin-left: 70px;
+
+    }
+
+
+    .card_1 p {
+        
+        width: 100%;
+        height: auto;
+
+        font-size: 65px;
+
+        margin-top: 100px;
+        margin-left: -340px;
+        
+    }
+
+    .card_2 {
+
+        width: 100%;
+        height: auto;
+
+        display: flexbox;
+        flex-direction: row;
+        justify-content: center;
+
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    .card_2_img {
+
+        width: 100%;
+        height: auto;
+
+    }
+
+    .card_2_img h1 {
+
+        font-size: 80px;
+        
+    }
+
+    .card_2_img img {
+
+        width: 80px;
+        height: 80px;
+
+        margin-left: 70px;
+
+    }
+
+
+    .card_2 p {
+        
+        width: 100%;
+        height: auto;
+
+        font-size: 65px;
+
+        margin-top: 100px;
+        margin-left: -580px;
+        
+    }
+
+    .card_3 {
+
+        width: 100%;
+        height: auto;
+
+        display: flexbox;
+        flex-direction: row;
+        justify-content: center;
+
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 50px;
+
+    }
+    
+
+    .card_3_img {
+
+        width: 100%;
+        height: auto;
+
+    }
+
+    .card_3_img h1 {
+
+        font-size: 80px;
+        
+    }
+
+    .card_3_img img {
+
+        width: 80px;
+        height: 80px;
+
+        margin-left: 90px;
+
+    }
+
+
+    .card_3 p {
+        
+        width: 100%;
+        height: auto;
+
+        font-size: 65px;
+
+        margin-top: 100px;
+        margin-left: -570px;
+        
+    }
+
+}
+
+
+
+/* ------------------------------------------------- */
+
+/* estilos del footer */ 
+
+
+footer {
+
+    width: 1800;
+    height: 80px;
+
+    display: flex;
+
+    margin-top: 20px;
+    
+    justify-content: center;
+    
+    font-family: arimo;
+   
+}
+
+/* ------------------------------------------------- */
+
+/* estilos del container_3 */ 
+
+
+.container_3{
+    width: 1890px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 100px;
+  
+    background-color: var(--color_primari);
+}
+
+.info {
+
+    width: 1800px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+.info .direc {
+
+    margin-left: 150px;
+    margin-right: -200px;
+    z-index: 1;
+
+}
+
+.info .email {
+
+    margin-left: -200px;
+    margin-right: -200px;
+    z-index: 1;
+}
+
+.info .phone {
+
+    margin-left: -200px;
+    margin-right: 250px;
+    z-index: 1;
+}
+
+.info p {
+
+    font-size: 30px;
+    padding: 20px;
+
+
+    color: white;
+}
+
+/* ------------------------------------------------- */
+
+/*  */ 
